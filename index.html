@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<script src="http://jashkenas.github.io/underscore/underscore-min.js"></script>
+<style>
+body {
+  font-family: sans-serif;
+}
+textarea {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 298px;
+  padding: 0;
+}
+#range {
+  width: 90%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+#range-val {
+  float: right;
+  width: 10%;
+  text-align: right;
+}
+p {
+  margin: 0;
+}
+p span {
+  vertical-align: top;
+}
+#output {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  clear: both;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  margin-top: 1em;
+}
+</style>
+</head>
+<body>
+<textarea id="input" rows="7">
+dikk
+starr
+djighurdaa
+</textarea>
+
+<input type="range" id="range" name="" min="40" max="4000" value="300" step="1">
+
+<div id="range-val"></div>
+<div id="output"></div>
+<script src="script.js"></script>
+
+</body></html>
