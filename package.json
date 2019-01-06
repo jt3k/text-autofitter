@@ -1,0 +1,38 @@
+{
+  "name": "text-autofitter",
+  "version": "1.0.0",
+  "description": "fit your text to container size",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rimraf docs && parcel build --no-cache --experimental-scope-hoisting -d docs index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jt3k/text-autofitter.git"
+  },
+  "keywords": [
+    "text",
+    "fittext",
+    "container"
+  ],
+  "author": "Andrey Gurtovoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jt3k/text-autofitter/issues"
+  },
+  "homepage": "https://github.com/jt3k/text-autofitter#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.11.0",
+    "rimraf": "^2.6.3"
+  }
+}
